@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* My css */
+.logo-img {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-sec {
+  background-color: rgba(245, 230, 255, 0.432);
+  padding: 20px 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.mylist li {
+  list-style: none;
+  padding: 0px 20px;
+  margin-bottom: 0;
+}
+
+.mylist {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.about-sec {
+  min-height: 100vh;
+  background-image: url('./bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-area {
+  min-height: 500px;
+}
+
+.form-btn button {
+  background-color: #c1fbe8;
+  color: #1e1544;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: 500;
+
+}
+
+.form-btn .active {
+  background-color: #1e1544;
+  color: #c1fbe8;
+  border: 2px #c1fbe8 solid;
+}
+
+.menu {
+  width: 40%;
+  text-align: left;
+  left: -100%;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  height: 50vh;
+  background-color: #61dafb;
+}
+
+.activeMenu {
+  left: 0%;
+}
+
+.micon {
+  position: absolute;
+  right: 62px;
+}
+
+.nav-list {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.top-sec {
+  background-image: url('../public//images/main-banner.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
