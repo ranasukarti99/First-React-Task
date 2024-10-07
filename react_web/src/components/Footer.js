@@ -15,6 +15,8 @@ export default function Footer() {
                     <p className='text-dark mt-4 text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull</p>
                 </Col>
                 <Col lg="4">
+
+                
                     <ul>
                         <h5 className='my-3 fw-bold text-info '>Our Services</h5>
                         <li className='list-unstyled'>Automation Testing</li>
