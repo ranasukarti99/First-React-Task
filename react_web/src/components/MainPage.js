@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Cards from './card';
 import Forms from './form';
+import Fetching from './ApiDAta';
 
 
 function Us() {
@@ -12,6 +13,7 @@ function Us() {
     return (
         <>
             <div className="top-sec d-flex justify-content-center align-items-center">
+        {<Fetching/>}
                 <Container>
                     <Row>
                         <Col>
